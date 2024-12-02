@@ -13,11 +13,11 @@ function imc () {
         let classificacao = "";
 
         if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso // Eu te amo, sogrinha! '
+            classificacao = 'abaixo do peso!'
         }else if (valorIMC < 25){
-            classificacao = 'peso ideal // Eu te amo, sogrinha! '
+            classificacao = 'peso ideal'
         }else if (valorIMC < 30){
-            classificacao = 'levemente acima do peso // Eu te amo, sogrinha!';
+            classificacao = 'levemente acima do peso';
         }else if (valorIMC < 35){
             classificacao = 'com obesidade grau I.'
         }else if (valorIMC < 40){
